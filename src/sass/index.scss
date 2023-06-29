@@ -1,1 +1,14 @@
-@import './common';
+@import '../sass/utilits/common';
+@import '../sass/utilits/mixins';
+
+@import '../sass/variables/breackpoints';
+@import '../sass/variables/colors';
+@import '../sass/variables/fonts';
+
+@import '../sass/components/header';
+@import '../sass/components/hero';
+@import '../sass/components/offerings';
+@import '../sass/components/favorites';
+@import '../sass/components/customer-say';
+@import '../sass/components/subscribe';
+@import '../sass/components/footer';

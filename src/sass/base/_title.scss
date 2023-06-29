@@ -1,0 +1,14 @@
+.title {
+  font-family: $primary-font;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  @include mq(tablet) {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  // @include mq(desktop) {
+  //   font-size: 2px;
+  // }
+}

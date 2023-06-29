@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url();
+  background-size: contain;
+  color: $primary-text;
+  font-family: $primary-font;
+  font-size: 12px;
+  line-height: 1.76;
+  @include mq(retina) {
+    background-image: url();
+  }
+  @include mq(tablet) {
+    background-image: url();
+    font-size: 14px;
+    @include mq(retina) {
+      background-image: url();
+    }
+  }
+
+  @include mq(desktop) {
+    background-image: url();
+    font-size: 16px;
+    @include mq(retina) {
+      background-image: url();
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.5s;
+}
