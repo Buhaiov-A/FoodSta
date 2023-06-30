@@ -1,18 +1,101 @@
 <section id="offerings" class="offerings">
   <div class="offerings-container container">
+    <picture class="not-transperent-apple">
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/offerings/apple_des_x1.png 1x,
+          ./images/offerings/apple_des_x2.png 2x
+        "
+        type="image/png"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/offerings/apple_tab_x1.png 1x,
+          ./images/offerings/apple_tab_x2.png 2x
+        "
+        type="image/png"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/offerings/apple_mob_x1.png 1x,
+          ./images/offerings/apple_mob_x2.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        class="about-picture__row"
+        src="./images/offerings/apple_mob_x1.png"
+        loading="lazy"
+        alt="apple"
+      />
+    </picture>
+
+    <picture class="transperent-apple">
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/offerings/apple2_tab_x1.png 1x,
+          ./images/offerings/apple2_tab_x2.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        class="transperent-apple__image"
+        src="./images/offerings/apple2_tab_x1.png"
+        loading="lazy"
+        alt="apple"
+      />
+    </picture>
+
+    <picture class="transperent-apple">
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/offerings/apple3_tab_x1.png 1x,
+          ./images/offerings/apple3_tab_x2.png 2x
+        "
+        type="image/png"
+      />
+      <img
+        class="transperent-apple__image"
+        src="./images/offerings/apple3_tab_x1.png"
+        loading="lazy"
+        alt="apple"
+      />
+    </picture>
+
     <div class="offerings-content">
-      <h2 class="offerings-content__title"></h2>
-      <p class="offerings-content__description"></p>
+      <h2 class="offerings-content__title">
+        What’s Special About Our Offerings
+      </h2>
+      <p class="offerings-content__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      </p>
       <ul class="advantage">
         <li class="advantage-item">
-          <img src="" alt="" />
-          <h3 class="advantage-title"></h3>
-          <p class="advantage-text"></p>
+          <svg class="advantage-icon">
+            <!-- <use href=""></use> -->
+          </svg>
+          <h3 class="advantage-title">Fasest Delivery</h3>
+          <p class="advantage-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
         </li>
         <li class="advantage-item">
-          <img src="" alt="" />
-          <h3 class="advantage-title"></h3>
-          <p class="advantage-text"></p>
+          <svg class="advantage-icon">
+            <!-- <use href=""></use> -->
+          </svg>
+          <h3 class="advantage-title">Easy To Order</h3>
+          <p class="advantage-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros.
+          </p>
         </li>
       </ul>
       <button>Order Now</button>
