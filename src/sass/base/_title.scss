@@ -1,32 +1,9 @@
 .title {
-  font-family: $primary-font;
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 20px;
 
   @include mq(tablet) {
     font-size: 42px;
-    line-height: 1.2;
   }
-}
-
-.main-title {
-  font-family: $primary-font;
-  font-size: 28px;
-  font-weight: 700;
-
-  @include mq(tablet) {
-    font-size: 42px;
-    line-height: 1.2;
-  }
-
-  @include mq(desktop) {
-    font-size: 48px;
-    line-height: 1.2;
-  }
-}
-
-.subtitle {
-  font-family: $primary-font;
-  font-size: 18px;
-  font-weight: 700;
 }

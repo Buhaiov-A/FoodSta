@@ -1,53 +1,24 @@
-<section id="subscribe" class="subscribe">
-  <div class="subscribe-container container">
+<section id="contact">
+  <div class="container subscribe__container">
     <div>
-      <h2>Subscribe To Get Special Offers</h2>
-      <p>
+      <h2 class="title">Subscribe To Get Special Offers</h2>
+      <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique.
       </p>
-      <form>
+      <form class="form subscribe-form" id="subscr-form">
         <input
           name="email"
           required
           type="email"
           placeholder="Enter your email"
-          class=""
+          class="form__input contacts__input"
         />
-        <button class="" type="submit">Subscribe</button>
+        <button class="button button__green-big subscribe__btn" type="submit">
+          Subscribe
+        </button>
       </form>
     </div>
-    <picture class="subscribe-images">
-      <source
-        media="(min-width: 1280px)"
-        srcset="
-          ./images/subscribe/banan_des_x1.png 1x,
-          ./images/subscribe/banan_des_x2.png 2x
-        "
-        type="image/png"
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./images/subscribe/banan_tab_x1.png 1x,
-          ./images/subscribe/banan_tab_x2.png 2x
-        "
-        type="image/png"
-      />
-      <source
-        media="(max-width: 767px)"
-        srcset="
-          ./images/subscribe/banan_mob_x1.png 1x,
-          ./images/subscribe/banan_mob_x2.png 2x
-        "
-        type="image/png"
-      />
-      <img
-        class="banan-picture"
-        src="./images/subscribe/banan_mob_x1.png"
-        loading="lazy"
-        alt="gamburger"
-      />
-    </picture>
+    <img src="./images/banan.png" class="subscribe-img" />
   </div>
 </section>
